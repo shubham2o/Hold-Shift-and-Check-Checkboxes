@@ -10,6 +10,53 @@
 </head>
 
 <body>
+    <!-- Input Checkbox checked Property -->
+    <h1>Input Checkbox checked Property</h1>
+    <p>• The checked property sets or returns the checked state of a checkbox.</p>
+    <p>• This property reflects the HTML checked attribute.</p>
+    <br>
+
+    <!-- EXAMPLE 1 || -->
+    <p>• <strong>EXAMPLE 1 ||</strong>
+        Set the checked state of a checkbox :</p>
+    Checkbox : <br> <input type="checkbox" id="myCheck">
+    <br>
+    <button onclick="check()">Check Checkbox</button>
+    <button onclick="uncheck()">Uncheck Checkbox</button>
+    <br><br><br>
+
+    <!-- EXAMPLE 2 || -->
+    <p>• <strong>EXAMPLE 2 ||</strong>
+        Find out if a checkbox is checked or not :</p>
+    Checkbox : <br> <input type="checkbox" id="myCheck2">
+    <br>
+    <button onclick="example2()">Try it</button>
+    <p id="demo2"></p>
+    <br>
+
+    <!-- EXAMPLE 3 || -->
+    <p>• <strong>EXAMPLE 3 ||</strong>
+        Use a checkbox to convert text in an input field to uppercase :</p>
+    First Name : <input type="text" id="fname" value="Donald">
+    <br>
+    Convert to uppercase : <input type="checkbox" onclick="if(this.checked) {example3()}">
+    <br><br><br>
+
+    <!-- EXAMPLE 4 || -->
+    <p>• <strong>EXAMPLE 4 ||</strong>
+        Several checkboxes in a form :</p>
+    <p>How would you like your coffee?</p>
+    <form action="">
+        <input type="checkbox" name="coffee" value="cream">With cream
+        <input type="checkbox" name="coffee" value="sugar">With sugar
+        <br><br>
+        <input type="button" onclick="example4()" value="Send order">
+        <br><br>
+        <input type="text" id="order" size="50">
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+
     <script src="doubts.js"></script>
 </body>
 
