@@ -1,0 +1,31 @@
+/* CSS element + element Selector */
+div + p {
+    background-color : yellow;
+}
+
+
+/* CSS :checked Selector */
+input:checked {
+    height : 50px;
+    width : 50px;
+}
+
+
+/* CSS [atrribute=value] Selector 
+EXAMPLE 1 */
+a[target=_blank] {
+    background-color : yellow;
+}
+
+
+/* EXAMPLE 2 */
+input[type=text] {
+    width : 100px;
+}
+
+
+input[type=text]:focus {
+    width : 250px;
+    background : black;
+    color : white;
+}
